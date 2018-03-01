@@ -1,2 +1,2 @@
 # Woodman.Alexa.NextYoullSay
-Alexa skill that makes you feel like Joseph
+AWS Lambda Project for an Alexa skill that makes you feel like Joseph

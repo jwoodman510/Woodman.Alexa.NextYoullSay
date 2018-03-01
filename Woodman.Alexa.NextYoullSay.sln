@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Woodman.Alexa.NextYoullSay", "Woodman.Alexa.NextYoullSay\Woodman.Alexa.NextYoullSay.csproj", "{9A07CECA-FDE7-4DFD-89F4-CE76A5DD7B3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{779D4D72-082B-4032-83AF-A5DC5D9B2EC4}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		skillmodel.json = skillmodel.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A07CECA-FDE7-4DFD-89F4-CE76A5DD7B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A07CECA-FDE7-4DFD-89F4-CE76A5DD7B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A07CECA-FDE7-4DFD-89F4-CE76A5DD7B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A07CECA-FDE7-4DFD-89F4-CE76A5DD7B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AEDDBEA-9D9A-40E9-A33D-3E7C62E578B1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,51 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": [
+          "cancel",
+          "never mind",
+          "forget it"
+        ]
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": [
+          "help",
+          "help me",
+          "what can I say",
+          "can you help me"
+        ]
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "stop",
+          "off",
+          "shut up",
+          "stop it",
+          "bye",
+          "see you later"
+        ]
+      },
+      {
+        "name": "RepeatIntent",
+        "samples": [
+          "next you'll say {Query}",
+          "your next line is {Query}",
+          "next you're gonna say {Query}",
+          "next you will say {Query}",
+          "next you are going to say {Query}"
+        ],
+        "slots": [
+          {
+            "name": "Query",
+            "type": "AMAZON.SearchQuery"
+          }
+        ]
+      }
+    ],
+    "invocationName": "jojo"
+  }
+}
